@@ -17,7 +17,7 @@ export async function handler(event, context) {
     try {
         // Przykład zapytania: pobierz dane z tabeli 'items'
         const { data, error } = await supabase
-            .from('items') // Zmień na nazwę swojej tabeli
+            .from('pytania') // Zmień na nazwę swojej tabeli
             .select('*');
 
         if (error) {
