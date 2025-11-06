@@ -1,15 +1,11 @@
 {
   "name": "asdaz",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "Netlify function to fetch Supabase data",
   "dependencies": {
-    "@supabase/supabase-js": "^2.43.4"  <-- To musi tu być!
+    "@supabase/supabase-js": "^2.43.4" 
+  },
+  "scripts": {
+    "start": "echo 'Instalacja zależności...' && npm install"
   }
 }
